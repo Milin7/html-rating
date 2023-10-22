@@ -1,0 +1,177 @@
+html{
+    background-color: hsl(216, 12%, 8%);
+}
+body{
+    font-family: 'Overpass', sans-serif;
+}
+.gridContainer{
+    background-color: hsl(213, 20%, 18%);
+    display: grid;
+    
+    width: 350px;
+    height: 350px;
+    align-self: center;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: inset 0px 0px 300px 10px hsl(216, 12%, 8%);
+
+}
+
+
+.star {
+ background-color:hsla(216, 12%, 54%, 0.31);
+display: grid;
+height: 30px;
+width: 30px;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+}
+h1{
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    justify-content: center;
+}
+
+p{
+color: hsl(217, 12%, 63%);
+}
+.row4{
+font-size: 15px;
+text-align: center;
+}
+.numbers {
+ display: flex;
+justify-content: space-evenly;
+margin-top: 20px;
+margin-bottom: 30px;
+
+}
+.calification{
+ background-color: hsla(216, 12%, 54%, 0.31);
+ height: 3em;
+ width: 3em;
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ cursor: pointer;
+}
+.calification:hover{
+    background-color:hsl(217, 12%, 63%);
+}
+.whenclicked{
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(25, 97%, 53%);
+}
+
+button{
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 40px;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+
+}
+.selection{
+    border: none;
+    background-color: hsla(216, 12%, 54%, 0.31);
+    color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    height: 2.5em;
+    width: auto;
+    margin: auto;
+    font-size: 15px;
+    display: grid;
+
+}
+.thankimg{
+    margin: 20px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+
+}
+body{
+    max-height: 1440px;
+}
+footer{
+    margin-top: 1000px;
+    
+}
+.hidden{
+visibility: hidden;
+position: absolute;
+}
+
+button:active{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    background-color: hsla(216, 12%, 54%, 0.31);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 10px;
+    width: auto;
+   
+
+}
+.how{
+    display: flex;
+    justify-content: start;
+}
+.please{
+    display: flex;
+    justify-content: start;
+}
+
+.attribution{
+    color: hsl(0, 0%, 100%);
+}
+.milin:hover{
+    color: hsl(25, 97%, 53%);
+}
+
+.creditcontainer{
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+}
+.name{
+    color: hsl(25, 97%, 53%);
+}
+#design{
+    text-decoration: underline;
+}
+#by{
+    text-decoration:underline;
+}
+
+@media (max-width:1000px){
+    .gridContainer{
+        display: grid;
+        height: 375px;
+        width: 375px;
+    }
+    .numbers{
+        margin: 25px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .thankimg {
+        margin: 20px;
+    }
+    .row2 {
+        color: hsl(217, 12%, 63%);
+        display: flex;
+        width: auto;
+    }
+}
