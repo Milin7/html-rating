@@ -155,7 +155,7 @@ button:active{
     text-decoration:underline;
 }
 
-@media (max-width:1000px){
+@media (max-width:375px){
     .gridContainer{
         display: grid;
         height: 375px;
