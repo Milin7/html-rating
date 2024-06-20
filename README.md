@@ -1,1 +1,1 @@
-# html-rating
+# rating-hub
